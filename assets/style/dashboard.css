@@ -1,0 +1,69 @@
+/* dashboard.css */
+
+/* Styling for the main content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Styling for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for buttons */
+.btn-logout {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-logout:hover {
+    background-color: #c82333;
+}
+
+/* Styling for logo */
+img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Styling for additional content */
+.tai {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for responsive design */
+@media (max-width: 768px) {
+    .dashboard-content, .tai {
+        margin: 10px;
+    }
+}

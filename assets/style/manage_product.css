@@ -1,0 +1,78 @@
+/* manage_product.css */
+
+/* Styling for header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for form container */
+.form-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Styling for form inputs */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Styling for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Styling for table header */
+th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Styling for table cells */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styling for action buttons */
+.action-buttons form {
+    display: inline;
+    margin-right: 5px;
+}
+
+.action-buttons button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.update-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.checkout-button {
+    background-color: #008CBA;
+    color: white;
+}
+
+/* Hover effect for action buttons */
+.action-buttons button:hover {
+    opacity: 0.8;
+}
